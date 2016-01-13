@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C35DFC021C468FF60090ADE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C35DFC011C468FF60090ADE7 /* main.m */; };
+		C35DFC051C468FF60090ADE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C35DFC041C468FF60090ADE7 /* AppDelegate.m */; };
+		C35DFC081C468FF60090ADE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35DFC071C468FF60090ADE7 /* ViewController.m */; };
+		C35DFC0B1C468FF60090ADE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35DFC091C468FF60090ADE7 /* Main.storyboard */; };
+		C35DFC0E1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C35DFC0C1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodeld */; };
+		C35DFC101C468FF60090ADE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35DFC0F1C468FF60090ADE7 /* Assets.xcassets */; };
+		C35DFC131C468FF60090ADE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C35DFC111C468FF60090ADE7 /* LaunchScreen.storyboard */; };
+		C35DFC1E1C468FF60090ADE7 /* GLPolygonButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35DFC1D1C468FF60090ADE7 /* GLPolygonButtonDemoTests.m */; };
+		C35DFC291C468FF60090ADE7 /* GLPolygonButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C35DFC281C468FF60090ADE7 /* GLPolygonButtonDemoUITests.m */; };
+		C36B4C071C4694B8002DE048 /* GLPolygonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C36B4C061C4694B8002DE048 /* GLPolygonButton.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C35DFC1A1C468FF60090ADE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35DFBF51C468FF50090ADE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35DFBFC1C468FF60090ADE7;
+			remoteInfo = GLPolygonButtonDemo;
+		};
+		C35DFC251C468FF60090ADE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C35DFBF51C468FF50090ADE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C35DFBFC1C468FF60090ADE7;
+			remoteInfo = GLPolygonButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C35DFBFD1C468FF60090ADE7 /* GLPolygonButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLPolygonButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35DFC011C468FF60090ADE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C35DFC031C468FF60090ADE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C35DFC041C468FF60090ADE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C35DFC061C468FF60090ADE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C35DFC071C468FF60090ADE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C35DFC0A1C468FF60090ADE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C35DFC0D1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GLPolygonButtonDemo.xcdatamodel; sourceTree = "<group>"; };
+		C35DFC0F1C468FF60090ADE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C35DFC121C468FF60090ADE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C35DFC141C468FF60090ADE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35DFC191C468FF60090ADE7 /* GLPolygonButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPolygonButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35DFC1D1C468FF60090ADE7 /* GLPolygonButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPolygonButtonDemoTests.m; sourceTree = "<group>"; };
+		C35DFC1F1C468FF60090ADE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35DFC241C468FF60090ADE7 /* GLPolygonButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GLPolygonButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35DFC281C468FF60090ADE7 /* GLPolygonButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLPolygonButtonDemoUITests.m; sourceTree = "<group>"; };
+		C35DFC2A1C468FF60090ADE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36B4C051C4694B8002DE048 /* GLPolygonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLPolygonButton.h; sourceTree = "<group>"; };
+		C36B4C061C4694B8002DE048 /* GLPolygonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLPolygonButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35DFBFA1C468FF60090ADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35DFC161C468FF60090ADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35DFC211C468FF60090ADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C35DFBF41C468FF50090ADE7 = {
+			isa = PBXGroup;
+			children = (
+				C35DFBFF1C468FF60090ADE7 /* GLPolygonButtonDemo */,
+				C35DFC1C1C468FF60090ADE7 /* GLPolygonButtonDemoTests */,
+				C35DFC271C468FF60090ADE7 /* GLPolygonButtonDemoUITests */,
+				C35DFBFE1C468FF60090ADE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35DFBFE1C468FF60090ADE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35DFBFD1C468FF60090ADE7 /* GLPolygonButtonDemo.app */,
+				C35DFC191C468FF60090ADE7 /* GLPolygonButtonDemoTests.xctest */,
+				C35DFC241C468FF60090ADE7 /* GLPolygonButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35DFBFF1C468FF60090ADE7 /* GLPolygonButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C36B4C051C4694B8002DE048 /* GLPolygonButton.h */,
+				C36B4C061C4694B8002DE048 /* GLPolygonButton.m */,
+				C35DFC031C468FF60090ADE7 /* AppDelegate.h */,
+				C35DFC041C468FF60090ADE7 /* AppDelegate.m */,
+				C35DFC061C468FF60090ADE7 /* ViewController.h */,
+				C35DFC071C468FF60090ADE7 /* ViewController.m */,
+				C35DFC091C468FF60090ADE7 /* Main.storyboard */,
+				C35DFC0F1C468FF60090ADE7 /* Assets.xcassets */,
+				C35DFC111C468FF60090ADE7 /* LaunchScreen.storyboard */,
+				C35DFC141C468FF60090ADE7 /* Info.plist */,
+				C35DFC0C1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodeld */,
+				C35DFC001C468FF60090ADE7 /* Supporting Files */,
+			);
+			path = GLPolygonButtonDemo;
+			sourceTree = "<group>";
+		};
+		C35DFC001C468FF60090ADE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C35DFC011C468FF60090ADE7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C35DFC1C1C468FF60090ADE7 /* GLPolygonButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C35DFC1D1C468FF60090ADE7 /* GLPolygonButtonDemoTests.m */,
+				C35DFC1F1C468FF60090ADE7 /* Info.plist */,
+			);
+			path = GLPolygonButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		C35DFC271C468FF60090ADE7 /* GLPolygonButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C35DFC281C468FF60090ADE7 /* GLPolygonButtonDemoUITests.m */,
+				C35DFC2A1C468FF60090ADE7 /* Info.plist */,
+			);
+			path = GLPolygonButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35DFBFC1C468FF60090ADE7 /* GLPolygonButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35DFC2D1C468FF60090ADE7 /* Build configuration list for PBXNativeTarget "GLPolygonButtonDemo" */;
+			buildPhases = (
+				C35DFBF91C468FF60090ADE7 /* Sources */,
+				C35DFBFA1C468FF60090ADE7 /* Frameworks */,
+				C35DFBFB1C468FF60090ADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GLPolygonButtonDemo;
+			productName = GLPolygonButtonDemo;
+			productReference = C35DFBFD1C468FF60090ADE7 /* GLPolygonButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C35DFC181C468FF60090ADE7 /* GLPolygonButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35DFC301C468FF60090ADE7 /* Build configuration list for PBXNativeTarget "GLPolygonButtonDemoTests" */;
+			buildPhases = (
+				C35DFC151C468FF60090ADE7 /* Sources */,
+				C35DFC161C468FF60090ADE7 /* Frameworks */,
+				C35DFC171C468FF60090ADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35DFC1B1C468FF60090ADE7 /* PBXTargetDependency */,
+			);
+			name = GLPolygonButtonDemoTests;
+			productName = GLPolygonButtonDemoTests;
+			productReference = C35DFC191C468FF60090ADE7 /* GLPolygonButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C35DFC231C468FF60090ADE7 /* GLPolygonButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35DFC331C468FF60090ADE7 /* Build configuration list for PBXNativeTarget "GLPolygonButtonDemoUITests" */;
+			buildPhases = (
+				C35DFC201C468FF60090ADE7 /* Sources */,
+				C35DFC211C468FF60090ADE7 /* Frameworks */,
+				C35DFC221C468FF60090ADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C35DFC261C468FF60090ADE7 /* PBXTargetDependency */,
+			);
+			name = GLPolygonButtonDemoUITests;
+			productName = GLPolygonButtonDemoUITests;
+			productReference = C35DFC241C468FF60090ADE7 /* GLPolygonButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35DFBF51C468FF50090ADE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = GrayLand;
+				TargetAttributes = {
+					C35DFBFC1C468FF60090ADE7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					C35DFC181C468FF60090ADE7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C35DFBFC1C468FF60090ADE7;
+					};
+					C35DFC231C468FF60090ADE7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = C35DFBFC1C468FF60090ADE7;
+					};
+				};
+			};
+			buildConfigurationList = C35DFBF81C468FF50090ADE7 /* Build configuration list for PBXProject "GLPolygonButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C35DFBF41C468FF50090ADE7;
+			productRefGroup = C35DFBFE1C468FF60090ADE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35DFBFC1C468FF60090ADE7 /* GLPolygonButtonDemo */,
+				C35DFC181C468FF60090ADE7 /* GLPolygonButtonDemoTests */,
+				C35DFC231C468FF60090ADE7 /* GLPolygonButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C35DFBFB1C468FF60090ADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35DFC131C468FF60090ADE7 /* LaunchScreen.storyboard in Resources */,
+				C35DFC101C468FF60090ADE7 /* Assets.xcassets in Resources */,
+				C35DFC0B1C468FF60090ADE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35DFC171C468FF60090ADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35DFC221C468FF60090ADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35DFBF91C468FF60090ADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35DFC0E1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodeld in Sources */,
+				C36B4C071C4694B8002DE048 /* GLPolygonButton.m in Sources */,
+				C35DFC081C468FF60090ADE7 /* ViewController.m in Sources */,
+				C35DFC051C468FF60090ADE7 /* AppDelegate.m in Sources */,
+				C35DFC021C468FF60090ADE7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35DFC151C468FF60090ADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35DFC1E1C468FF60090ADE7 /* GLPolygonButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35DFC201C468FF60090ADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35DFC291C468FF60090ADE7 /* GLPolygonButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C35DFC1B1C468FF60090ADE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35DFBFC1C468FF60090ADE7 /* GLPolygonButtonDemo */;
+			targetProxy = C35DFC1A1C468FF60090ADE7 /* PBXContainerItemProxy */;
+		};
+		C35DFC261C468FF60090ADE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C35DFBFC1C468FF60090ADE7 /* GLPolygonButtonDemo */;
+			targetProxy = C35DFC251C468FF60090ADE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C35DFC091C468FF60090ADE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35DFC0A1C468FF60090ADE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C35DFC111C468FF60090ADE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C35DFC121C468FF60090ADE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C35DFC2B1C468FF60090ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C35DFC2C1C468FF60090ADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C35DFC2E1C468FF60090ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = GLPolygonButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLandStudio.GLPolygonButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C35DFC2F1C468FF60090ADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = GLPolygonButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLandStudio.GLPolygonButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C35DFC311C468FF60090ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GLPolygonButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLandStudio.GLPolygonButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLPolygonButtonDemo.app/GLPolygonButtonDemo";
+			};
+			name = Debug;
+		};
+		C35DFC321C468FF60090ADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GLPolygonButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLandStudio.GLPolygonButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GLPolygonButtonDemo.app/GLPolygonButtonDemo";
+			};
+			name = Release;
+		};
+		C35DFC341C468FF60090ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GLPolygonButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLandStudio.GLPolygonButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GLPolygonButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C35DFC351C468FF60090ADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GLPolygonButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GrayLandStudio.GLPolygonButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GLPolygonButtonDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35DFBF81C468FF50090ADE7 /* Build configuration list for PBXProject "GLPolygonButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35DFC2B1C468FF60090ADE7 /* Debug */,
+				C35DFC2C1C468FF60090ADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35DFC2D1C468FF60090ADE7 /* Build configuration list for PBXNativeTarget "GLPolygonButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35DFC2E1C468FF60090ADE7 /* Debug */,
+				C35DFC2F1C468FF60090ADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35DFC301C468FF60090ADE7 /* Build configuration list for PBXNativeTarget "GLPolygonButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35DFC311C468FF60090ADE7 /* Debug */,
+				C35DFC321C468FF60090ADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35DFC331C468FF60090ADE7 /* Build configuration list for PBXNativeTarget "GLPolygonButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35DFC341C468FF60090ADE7 /* Debug */,
+				C35DFC351C468FF60090ADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C35DFC0C1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C35DFC0D1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodel */,
+			);
+			currentVersion = C35DFC0D1C468FF60090ADE7 /* GLPolygonButtonDemo.xcdatamodel */;
+			path = GLPolygonButtonDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C35DFBF51C468FF50090ADE7 /* Project object */;
+}
